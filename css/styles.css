@@ -1,0 +1,1276 @@
+/* GardenWalk HOB CSS */
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: inline;
+    margin-bottom: 5px;
+    padding: 15px 0;
+
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face{
+ font-family:"Brandon Printed One";
+    src:url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_one-webfont.eot');
+    src:url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_one-webfont.woff') format('woff'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_one-webfont.ttf') format('truetype'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_one-webfont.ttf') format('truetype'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_one-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+ font-family:"Brandon Printed Two";
+    src:url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_two-webfont.eot');
+    src:url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_two-webfont.ttf') format('truetype'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_two-webfont.svg') format('svg'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_two-webfont.woff2') format('woff2'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_printed_two-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+ font-family:"Brandon Light";
+    src:url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_light-webfont.eot');
+    src:url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_light-webfont.ttf') format('truetype'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_light-webfont.svg') format('svg'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_light-webfont.woff2') format('woff2'),
+        url('http://prodlnecdataa.blob.core.windows.net/hob-anahiem-com/gw_fonts/brandon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* img {
+    max-width:100%; /*to ensure images are responsive*/
+    height:auto;
+}
+body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    width:100%;
+    background-color:#000;
+    color:#fff;
+}
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
+.wrapper {
+	width:100%;
+    max-width:1480px;
+	margin:0 auto;
+	text-align:center;
+}
+#top-container {
+	width:100%;
+    height:auto;
+    height:694px;
+    background:url('http://garden-walk-hob.azurewebsites.net/img/header-img2.jpg') no-repeat center center;
+    margin:0 auto;
+    position:relative;
+    z-index:1;
+}
+.logo {
+    position:absolute;
+    top:20px;
+    left:43.2%;
+    right:43.2%;
+}
+#top-container header {
+    width: 100%;
+    margin: 0 0;
+    padding-top:7px;
+}
+.goback {
+    float:left;
+    padding-left:7px;
+}
+.goback a {
+    font-size:12px;
+    color:#ccc;
+    font-family: Arial, sans-serif;
+    text-decoration:none;
+}
+.goback a:hover {
+    color:#fff;
+}
+.goback img {
+    vertical-align:text-bottom;
+}
+.socials, .socials-btm {
+    float:right;
+    padding-right:7px;
+}
+.socials a, .socials-btm a {
+    display:inline-block;
+    float:left;
+    margin-right:4px;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+h2 {
+    color: #fff;
+    font-family:'Brandon Printed Two','Arial Black', sans-serif;
+    font-size:36px;
+    letter-spacing:8px;
+    margin:0 auto;
+    margin-top:0px;
+    text-shadow: 3px 3px #113975;
+    margin-bottom:18px;
+    padding-top:30px;
+    padding-bottom:35px;
+    text-transform:uppercase;
+}
+h2.main {
+    width:33%;
+    text-shadow: 5px 5px #113975;
+}
+h2 span.head-lg {
+    font-size:90px;
+    line-height:80px;
+    padding-bottom:10px;
+}
+h3 {
+    color: #fff;
+    font-family:'Brandon Printed Two', 'Arial Black', sans-serif;
+    font-size:32px;
+    text-shadow: 2px 2px #888;
+    margin:0 0;
+    text-transform:uppercase;
+}
+h3.padd {
+    text-shadow: 3px 3px #113975;
+}
+h3.padd2 {
+    text-shadow: 2px 2px #df0418;
+    padding: 20px;
+    display:block;
+}
+.bg-blu {
+    background-color:rgba(3,59,89,.7);
+    margin:0 0;
+    padding:15px 0px;
+}
+.padd {
+    padding: 15px 0px 6px;
+}
+h4.title {
+    color: #fff;
+    font-family:'Brandon Printed Two','Arial Black', sans-serif;
+    font-size:32px;
+    letter-spacing:10px;
+    text-shadow: 3px 3px #113975;
+    padding: 0 10px;
+    margin:0 auto;
+    width:62%;
+    background-color: rgba(0,0,0,.6);
+    padding:8px;
+}
+.main-two h4 {
+    color: #fff;
+    font-family:'Brandon Printed Two', 'Arial Black', sans-serif;
+    font-size:20px;
+    letter-spacing:1px;
+    margin:0 auto;
+    margin-top:10px;
+    text-transform:uppercase;
+}
+h5 {
+    color: #fff;
+    font-family:'Brandon Printed One', sans-serif;
+    text-transform:uppercase;
+    font-size:30px;
+    padding-top:30px;
+    margin-top:0px;
+    margin-bottom:30px;
+    margin-right:10px;
+    margin-left:10px;
+    text-shadow: 2px 2px #999;
+}
+.section-one {
+    margin:auto;
+    margin-top:190px;
+}
+.section-one p {
+	font:18px Times, Times New Roman, serif;
+    font-weight:bold;
+    letter-spacing:1px;
+    line-height:21px;
+	margin:0 auto;
+    width:72%;
+    padding-top:40px;
+    padding-bottom:60px;
+}
+.sign-up {
+    margin:0 auto;
+    width:100%;
+    background-color: #111;
+    padding:12px 0px 0px;
+    font-family:'Brandon Printed Two','Arial Black', sans-serif;
+    font-size:18px;
+    font-weight:normal;
+    letter-spacing:1.5px;
+    color:#fff;
+    text-align:center;
+}
+.raise {
+    margin-top:-40px;
+    margin-bottom:-31px;
+    z-index:999;
+    position: relative;
+}
+.legal {
+    font-family:'Brandon Light', sans-serif;
+    font-size: 7.5px;
+    color:#ccc;
+    padding:2px 0px 10px;
+    margin-left:65px;
+    letter-spacing:1px;
+}
+/* SECTION 2 */
+section.section-two {
+    background:url('http://garden-walk-hob.azurewebsites.net/img/bg-img2.jpg') no-repeat;
+    background-size:cover;
+    width:100%;
+    min-height:100%;
+    margin:0 auto;
+    margin-bottom:0px;
+    overflow:auto;
+}
+p.sec2 {
+    width:65%;
+    margin:0 auto;
+    padding-bottom:15px;
+    font:16px Times, Times New Roman, serif;
+    line-height:24px;
+    letter-spacing:1.5px;
+    color:#c5d8e3;
+}
+.main-two {
+    padding-top:0px;
+    margin: 0 auto;
+    margin-top:2px;
+    text-align:center;
+}
+.sliding {
+    width:100%;
+    height:445px;
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+.sliding img {
+    position:absolute;
+    left:100%;
+    top:0px;
+}
+.sliding img.first {
+    left: 0px;
+}
+
+
+/* SECTION 3 */
+section.section-three{
+    width:100%;
+    background:url('http://garden-walk-hob.azurewebsites.net/img/bg-img3.jpg') no-repeat fixed;
+    background-size:cover;
+    margin:0 auto;
+}
+#column-row {
+    max-width:1440px;
+    min-height:500px;
+    margin: 0 auto;
+    text-align:center;
+    /*display:flex;*/
+}
+.module {
+    float:left;
+    width:25%;
+}
+.module:last-child, .module2:last-child {
+    margin-right:0px;
+}
+article {
+    padding:0px 0px 20px 0px;
+}
+.cell2 {
+    margin:0 auto;
+    text-align:center;
+    display:inline-block;
+    border: solid 0px #369;
+    width:330px;
+     height:330px;
+     overflow:hidden;
+     position:relative;
+     text-decoration: none;
+}
+.cell2 p.desc { /*rollover text*/
+    background-color: rgba(189,19,11, .8);
+    width:100%;
+    font:16px Times,'Times New Roman', serif;
+    font-weight:bold;
+    letter-spacing:.1px;
+    margin:0 auto;
+    text-align:center;
+    line-height:30px;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    display:block;
+    padding:30px;
+    color: #fff;
+     margin:0px;
+     width:330px;
+     height:330px;
+     opacity:0;
+}
+.cell2 p.desc-pr {
+    line-height:25px; /* this was 27px */
+    padding:20px;
+}
+ul.sec3 {
+    position:relative;
+    width:92%;
+    list-style-type: none;
+    text-decoration:none;
+    font:16px Times,'Times New Roman', serif;
+    font-weight:bold;
+    letter-spacing:.2px;
+    line-height:21px;
+    text-align:left;
+    margin-left:20px;
+    margin-right:0px;
+    padding-right:20px;
+    padding-left:0px;
+    height:310px;
+    display:block;
+    
+}
+ul.sec3 li {
+    display:block;
+    overflow:auto;
+}
+ul div.btn1 {
+    margin:0 auto;
+    position:absolute;
+    bottom:-35px;
+    margin-right:10px;
+    left:1%;
+    right:1%;
+    text-align:center;
+    display:inline-block;
+    font-weight:normal;
+}
+.cell4 {
+    margin:0 auto;
+    text-align:center;
+    display:inline-block;
+}
+.left1 {
+    float:left;
+    width:10px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.left2 {
+    float:right;
+    width:93%;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+a.blu-button {
+    color: #28a3dd;
+    font-family:'Brandon Printed One', sans-serif;
+    font-size:14px;
+    border:1px solid #28a3dd;
+    padding:8px 20px;
+    text-transform:uppercase;
+    text-decoration:none;
+    width:85%;
+    margin:0 auto;
+    text-align:center;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+a.blu-button:hover{
+    color:#e02e25;
+    border:1px solid #e02e25;
+}
+
+/*---section four---*/
+section.section-four {
+    max-width:1600px;
+    min-height:500px;
+    width:100%;
+    background-color:#001726;
+    margin:0 auto;
+    text-align:center;
+}
+#column-row2 {
+    width:85%;
+    margin: 0 auto;
+    text-align:left;
+}
+.module2 {
+    float:left;
+    width:45%;
+    margin-left:25px;
+    margin-right:25px;
+}
+.cell3 {
+    text-align:left;
+    font:15px Times,'Times New Roman', serif;
+    letter-spacing:1.5px;
+    color:#666;
+    padding:20px 20px;
+    margin:0em 0;
+}
+.accordion {
+    cursor: pointer;
+    margin-bottom:10px;
+    color: #fff !important;
+}
+h6 {
+    color: #fff;
+    font-family:'Brandon Printed One','Arial Black', sans-serif;
+    font-size:15px;
+    padding:9px 10px 5px;
+    width:100%;
+    text-align:left;
+    margin-bottom:5em;
+    background:#013857;
+    text-transform:uppercase;
+    margin:0 0;
+}
+.cell3 a {
+    color:#e6453d;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #3B7C9A;
+}
+div.panel {
+    display:none;
+    padding: 0 18px 10px;
+    color:#ddd;
+}
+.accordion:after {
+    color: #fff !important;
+    content: '\02795';
+    font-size: 13px;
+    float: right;
+    vertical-align:text-top;
+    margin-left: 5px;
+}
+.accordion.active:after {
+    content: '\2796';
+    content-color:#fff;
+    color: rgba(255,255,255,1) !important;
+}
+/* SECTION 4 */
+section.section-five {
+    max-width:1600px;
+    min-height:500px;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+}
+#map {
+    width: 100%;
+    height: 500px;
+    overflow:auto;
+}
+.map-title {
+    position:absolute;
+    bottom:20px;
+    left:8%;
+    font:28px 'Iowan Old Style Black', serif;
+    letter-spacing:1.5px;
+    color:#fff;
+    font-weight:bold;
+    z-index:999;
+    padding:10px 10px;
+}
+.zoom {
+    position:absolute;
+    bottom:20px;
+    right:8%;
+    z-index:999;
+}
+footer {
+    padding:17px 60px;
+    background-color:#001726;
+    max-width:1600px;
+    min-height:70px;
+    width:100%;
+    border-top:3px solid #30acf8;
+}
+.footer-left {
+    float:left;
+    font:9px arial, sans-serif;
+    color:#b7c5d0;
+    padding:13px 0px;
+}
+.footer-right {
+    float:right;
+}
+.foo-text {
+    float:left;
+    color:#fff;
+    font:13px 'Iowan Old Style Black', serif;
+    letter-spacing:1.5px;
+    padding:8px 30px 8px 0px;
+    border-right: 1px solid #30acf8;
+    margin-right:30px;
+}
+/*POP-UP FOR*/
+.popdown-content header {
+    padding-top:0px;
+    background-color:#121C38;
+}
+
+h2.red {
+    margin: 0 auto;
+    border-top:1px solid #fff;
+    font-size:18px;
+    text-shadow: 3px 3px #d00e1c;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:0px;
+}
+section.parag {
+    font:14px 'Iowan Old Style Black', serif;
+    letter-spacing:1.5px;
+    line-height:21px;
+    padding:30px 35px 10px;
+    background-image:url('http://garden-walk-hob.azurewebsites.net/img/bg-img3.jpg');
+    background-size:cover;
+}
+.popdown-content {
+    background-color:#222;
+    color:#fff;
+}
+form.pure-form {
+    text-align:center;
+}
+button.pure-button.pure-button-color {
+    margin-top:10px;
+    margin-bottom:13px;
+    background:#d21123;
+    color:#fff;
+}
+/**** MODAL SIGN UP ****/
+/* SIGN-UP Modal*/
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+       padding-top: 100px;  Location of the box */
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        margin: 0 auto;
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+
+    }
+    /* Modal Content */
+    .modal-content {
+        margin-left:20%;
+        width:55%;
+    }
+    #myModal section.parag {
+        padding:0px 0px 0px;
+    }
+    #myModal p {
+        padding:20px 35px 10px;
+    }
+    .pure-control-group input {
+        color:#333;
+    }
+#sweeps-box {
+    display:none;
+}
+.featherlight .featherlight-content {
+    width:800px;
+    background-color:#000;
+    }
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media screen and (min-width: 1680px) {
+    .modal-content {
+        margin-left:10%;
+        width:45%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    h4.title {
+        margin-top:22px;
+    }
+}
+@media screen and (max-width: 1315px) {
+    .logo {
+        left:42%;
+    }
+}
+@media screen and (max-width: 1374px) and (min-width: 1081px) {
+    ul.sec3 {
+        height:340px;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .wrapper {
+       /* width: 1026px;  1140px - 10% for margins */
+        margin: 0 auto;
+    }
+    .sliding {
+        width:100%;
+        height:360px;
+    }
+}
+@media screen and (max-width: 1225px) {
+    .logo {
+        left:40.5%;
+    }
+    .remove {
+    display:none;
+    }
+    .legal {
+        margin-left:0px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    h4.title {
+        width:95%;
+        font-size:30px;
+    }
+    .module {
+        width:40%;
+        margin-left:7%;
+    }
+    .sliding {
+        width:100%;
+        height:300px;
+    }
+    h5 img {
+        display:none;
+    }
+    ul.sec3 {
+        height:275px;
+    }
+    .cell4 {
+        margin-bottom:25px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .featherlight .featherlight-content {
+        padding:0 0 0;
+        border-bottom: 0px solid transparent;
+        width:90%;
+    }
+}
+@media screen and (max-width: 960px) {
+    .logo {
+        left:40%;
+    }
+    .sliding {
+        width:100%;
+        height:275px;
+    }
+    .module {
+        margin-left:6%;
+    }
+    .cell {
+        padding: 20px 0px 0px;
+    }
+    ul.sec3 {
+        margin-left:0px;
+        width:100%;
+    }
+    .module2 {
+        width:95%;
+    }
+    #column-row2 {
+        width:100%;
+    }
+    p.sec2 {
+        width:90%;
+    }
+    .cell4 {
+        margin-bottom:5px;
+    }
+    .sign-up {
+        padding:18px 7px 6px;
+        line-height:26px;
+        overflow:visible;
+        height:auto;
+    }
+    .legal {
+        line-height:11px;
+    }
+    ul div.btn1 {
+        margin-right:10px;
+    }
+}
+@media screen and (max-width: 930px) {
+    #top-container {
+       height:610px; 
+    }
+    .logo {
+        left:41%;
+        width:170px;
+    }
+    h2.main {
+        width:90%;
+        padding-top:0px;
+    }
+    h4.title {
+       display:block;
+       width:85%;
+    }
+    span.head-lg{
+        font-size:50px;
+    }
+    .section-one {
+        margin-top:190px;
+    }
+    ul div.btn1 {
+        margin-right:0px;
+    }
+}
+@media screen and (max-width: 860px) {
+    ul.sec3 {
+        height:320px;
+    }
+    .logo {
+        left:40%;
+    }
+}
+@media screen and (max-width:883px) {
+    .sign-up {
+        line-height:26px;
+        overflow:visible;
+        height:auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        left:38%;
+    }
+    h2.main {
+        width: 100%;
+    }
+    h2 span.head-lg{
+        font-size:68px;
+    }
+    h4.title {
+        font-size:26px;
+    }
+    #top-container {
+        height: 605px;
+    }
+    .module {
+        width:90%;
+        margin-left:5%;
+    }
+    .cell p {
+        padding-top:20px;
+        width:70%;
+    }
+    .moving {
+        display:none;
+    }
+    #top-container {
+        height:600;
+    }
+    .section-one {
+        margin-top:200px;
+    }
+    .sliding {
+        width:100%;
+        height:225px;
+    }
+    .cell p {
+        width:90%;
+    }
+    ul.sec3 {
+        width:80%;
+        margin: 0 auto;
+        margin-left:15%;
+        margin-top:30px;
+        height:275px;
+    }
+    ul div.btn1 {
+        margin-right:60px;
+        bottom:-20px;
+    }
+    .modal-content {
+        margin-left:14%;
+        width:70%;
+    }
+    #myModal p {
+        padding:18px 15px 10px;
+    }
+    .embed-container iframe, .embed-container object, .embed-container embed { 
+        position: absolute; 
+        top: 0!important; 
+        left: 0!important; 
+        width: 100%!important; 
+        height: 100%!important;}
+    }
+
+    .embed-container { position: relative; padding-bottom: 56.25%; height: 0; width:100%; overflow: hidden; max-width: 100%; } 
+    .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; bottom: 20%; left: 15%; width: 70%; height: 70%; }
+}
+@media screen and (max-width: 667px) {
+    h2.main {
+        margin-bottom:0px;
+    }
+    h2 span.head-lg {
+        font-size:46px;
+    }
+    h4.title {
+        width:100%;
+    }
+    #top-container {
+        height:720px;
+    }
+    ul.sec3 {
+        height:370px;
+    }
+    ul div.btn1 {
+        margin-right:55px;
+        bottom:-20px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .logo {
+        left:36%;
+        right:36%;
+    }
+    #top-container {
+        height:560px;
+    }
+    h2.main {
+        font-size:32px;
+        padding-bottom:10px;
+    }
+    h2 span.head-lg{
+        font-size:62px;
+    }
+    .sliding {
+        width:100%;
+        height:125px;
+    }
+    .foo-text {
+        display:none;
+    }
+    .section-one {
+        margin-top:160px;
+        padding-right:10px;
+        padding-left:10px;
+    }
+    .section-one p {
+        width:95%;
+        padding-bottom:20px;
+    }
+    .logo {
+        width:140px;
+    }
+    h1.amp {
+        font-size:3em;
+    }
+    h2.red {
+        font-size:30px;
+    }
+    h3 {
+        font-size:30px;
+    }
+    h4 {
+        font-size:18px;
+    }
+}
+@media screen and (max-width: 550px) {
+    h4.title {
+        font-size:23px;
+        letter-spacing:5px;
+    }
+    h2.main {
+        font-size:28px;
+    }
+    ul div.btn1 {
+        margin-right:40px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+        left:34.5%;
+        width:150px;
+    }
+    h2.main {
+        font-size:30px;
+    }
+    h2 span.head-lg{
+        font-size:52px;
+        line-height:66px;
+    }
+    .module {
+        margin-left:0%;
+        width:100%;
+    }
+    .cell p {
+        width:90%;
+    }
+    .cell img.touch {
+        width:90%;
+    }
+    ul.sec3 {
+        width:90%;
+        margin-left:7%;
+        margin-top:15px;
+        height:300px;
+    }
+    ul div.btn1 {
+        margin-right:4%;
+    }
+    .sign-up {
+        padding:15px 15px 5px;
+        overflow:visible;
+        height:auto;
+    }
+    .module2 {
+        margin-right:5px;
+        margin-left:5px;
+    }
+    .title-four img, .section-four img {
+        display:none;
+    }
+    .modal-content {
+        margin-left:5%;
+        width:90%;
+    }
+    #myModal p {
+        padding:10px 10px 0px;
+    }
+    .pure-form input {
+        margin: 0 auto;
+    }
+    .pure-form-aligned .pure-control-group label.xxx {
+        text-align:center;
+        margin: 0 auto;
+        margin-top:8px;
+        margin-bottom:3px;
+    }
+    footer {
+        margin:0 auto;
+        text-align:center;
+    }
+    .footer-left {
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+    .footer-right {
+        float:none;
+    }
+    .socials-btm {
+        float:none;
+        margin:0 auto;
+        padding-right:0px;
+    }
+    .socials-btm a {
+        margin:0 auto;
+        text-align:center;
+        float:none;
+    }
+}
+@media screen and (max-width: 430px) {
+    h2.main {
+        padding-bottom:0px;
+    }
+    #top-container {
+        height:560px;
+    }
+    .gone {
+        display:none;
+    }
+}
+@media screen and (max-width: 416px) {
+    .logo {
+        left:34%;
+        width:130px;
+        top:30px;
+    }
+    h2.main {
+        font-size:26px;
+        padding-bottom:0px;
+        padding-top:20px;
+    }
+    h2 span.head-lg{
+        font-size:46px;
+    }
+    h3 {
+        font-size:22px;
+    }
+    h4.title {
+        width:100%;
+    }
+    .main-two h4 {
+        font-size:16px;
+    }
+    .section-one {
+        margin-top:135px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .logo {
+        left:33%;
+        width:110px;
+    }
+    .section-one {
+        margin-top:115px;
+    }
+}
+@media all {
+        .lightbox { display: none; }
+    /* override default feather style... */
+                .fixwidth {
+                    background: rgba(256,256,256, 0.8);
+                }
+                .fixwidth .featherlight-content {
+                    width: 800px;
+                    padding: 25px;
+                    color: #fff;
+                    background: #111;
+                }
+                .fixwidth .featherlight-close {
+                    color: #fff;
+                    background: #333;
+                }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== 
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
